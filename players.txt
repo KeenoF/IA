@@ -1,0 +1,250 @@
+Kevin Durant,Forward,28.6,53.9,38.9,86.3,7.5,5.6,0.7,0.7,3,None
+Stephen Curry,Guard,27.8,45.2,41.2,94.3,5.7,6.6,1.8,0.6,3.2,None
+Giannis Antetokounmpo,Forward,27.6,53.2,27.6,67.3,11.8,6,1.1,1.7,3.2,None
+Trae Young,Guard,26.3,46.6,38.8,89.5,3.8,9.1,0.9,0.1,3.8,None
+DeMar DeRozan,Guard,25.9,48.9,32.8,89.6,5.2,4.2,1,0.4,2,None
+Paul George, Guard,25.9,43.1,33.2,89.5,7.3,5.1,1.8,0.4,4.3,None
+LeBron James,Forward,25.8,48.4,34.4,75.5,5.2,6.8,1.8,0.7,3.7,None
+Nikola Jokic,Center,25.7,58,38.2,75.6,13.8,6.4,1.2,0.8,3.2,None
+Luka Doncic,Guard,25.6,45,34.3,66.7,7.9,8.6,1.2,0.6,4.5,None
+Zach LaVine,Guard,25.3,48.7,38.4,86.3,5.2,3.7,0.5,0.3,2.6,None
+Jayson Tatum,Forward,24.4,39.7,31.9,80.8,8.9,3.6,1,0.8,2.6,None
+Anthony Davis,Center,24.3,51.8,19.6,72.8,10,3,1.3,2.3,2,None
+Ja Morant,Guard,24.1,47.6,35.6,77.7,5.6,6.8,1.6,0.3,3.2,None
+Karl-Anthony Towns,Center,24,50.8,44.2,81.7,9,3.1,1.1,1,3.5,None
+Jimmy Butler,Forward,23.6,51.9,20,85,5.8,5.3,2.1,0.3,1.9,None
+Devin Booker,Guard,23.2,45.8,40.3,85.7,4.9,4.5,0.9,0.2,2.7,None
+Donovan Mitchell,Guard,23.2,43.4,32.2,87.9,4.3,5.1,1.9,0.2,2.9,None
+Bradley Beal,Guard,22.7,43.5,26.9,89.5,5.1,6.2,1,0.3,3.8,None
+Anthony Edwards,Guard,22.1,42.8,34.9,76.9,6.5,3.5,1.5,0.7,3.2,None
+Joel Embiid,Center,22,40.7,40.5,75.4,10.9,4.2,0.9,1.7,2.8,None
+Brandon Ingram,Forward,21.8,44.2,38,84.7,6.2,4.3,0.2,0.4,3.3,None
+Tyler Herro,Guard,21.7,45,39.3,87.5,5.5,3.8,0.5,0.1,2.9,None
+Damian Lillard,Point Guard,21.5,39.7,30.2,91.1,4,7.8,0.7,0.4,2.6,None
+Jaylen Brown,Shooting Guard,21.4,46.3,36.5,76.3,5.2,2.2,1.1,0.5,2.4,None
+Shai Gilgeous-Alexander,Point Guard,21.2,41.1,30,78.5,5.1,4.5,1.1,0.6,2.4,None
+Malcolm Brogdon,Shooting Guard,21,46,32.5,87.2,5.8,6.1,0.9,0.6,2.3,None
+James Harden,Shooting Guard,21,41.6,36.3,89.7,8,9.3,1.5,0.8,5,None
+Russell Westbrook,Point Guard,20.7,44.5,30.7,68.4,8.2,8.6,1.3,0.2,4.7,None
+CJ McCollum,Shooting Guard,20.6,42.7,39.8,73.2,4.3,4.5,1,0.6,1.9,None
+De'Aaron Fox,Point Guard,20.3,43.2,27.3,74.8,3.5,5.5,1.3,0.5,3,None
+OG Anunoby,Point Guard,20.1,43,36.6,82.5,5.4,2.7,1.5,0.6,1.7,None
+LaMelo Ball,Point Guard,20,41.8,39.1,90,7.7,8.3,1.9,0.4,3.3,None
+Cole Anthony,Small Forward,19.9,42.1,35.9,86.6,6.8,5.9,1.1,0.2,2.8,None
+Miles Bridges,Small Forward,19.9,45.6,32.3,75.5,7.5,3.1,1.2,1,1.8,None
+Fred VanVleet,Point Guard,19.9,44.1,38.7,85.2,5.2,6.3,1.6,0.6,3.2,None
+Kristaps Porzingis,Power Forward,19.7,45.9,30.1,87.5,8,1.9,0.9,1.7,1.4,None
+Jerami Grant,Power Forward,19.5,40.4,32.1,83.6,4.7,2.5,1.2,1,2.1,None
+Julius Randle,Small Forward,19.4,41.7,32.5,76,10.1,5.1,0.7,0.7,3.2,None
+Tobias Harris,Point Guard,19.2,47.6,29.8,82.9,8.2,3.7,0.4,0.5,1.7,None
+Dejounte Murray,Shooting Guard,19.1,44.6,30.6,70,8.5,8.1,2,0.5,2.3,None
+Harrison Barnes,Center,19,47.8,39.8,84.6,7.2,2.4,1,0.2,2.1,None
+D'Angelo Russell,Small Forward,18.9,38.9,32.4,81.4,3.9,6.2,0.9,0.8,2.6,None
+Jonas Valanciunas,Small Forward,18.8,50.3,48.4,86.8,12.1,2.4,0.6,0.8,2,None
+Bam Adebayo,Small Forward,18.7,51.9,0,75.9,10.2,3.2,1.1,0.3,2.9,None
+Andrew Wiggins,Small Forward,18.6,49,37.1,72.8,4.5,1.6,0.9,0.6,1.7,None
+Jordan Poole,Small Forward,18.5,45.6,34.7,90.7,3.1,3.3,1.1,0.2,2.5,None
+Darius Garland,Small Forward,18.5,45.8,35.9,84.8,2.6,7.2,1.2,0.1,3.8,None
+Dillon Brooks,Power Forward,18.4,40.3,31,90.9,3.6,2.1,1.4,0.3,2,None
+Pascal Siakam,Shooting Guard,17.9,46.2,32.6,75.5,7.1,3.7,0.8,0.9,1.9,None
+Terry Rozier,Point Guard,17.7,42.9,35,87,3.5,3.6,1.3,0.5,1.4,None
+Domantas Sabonis,Shooting Guard,17.5,56.3,28.8,73.3,11.9,4,1,0.3,3.1,None
+Tyrese Maxey,Small Forward,17.5,46.8,36.6,88.8,3.9,4.9,0.7,0.6,1.2,None
+Reggie Jackson,Power Forward,17.3,39.9,33.5,81.6,3.6,3.8,0.7,0.1,1.9,None
+Gary Trent Jr.,Small Forward,17.3,43.2,37.3,92.9,3.1,1.7,2.1,0.4,1,None
+Gordon Hayward,Point Guard,17.3,46.2,40.6,84.9,4.9,3.5,0.9,0.6,1.9,None
+Khris Middleton,Small Forward,17.1,41.3,33.7,86.8,5.2,4.9,1.4,0.1,2.9,None
+Bojan Bogdanovic,Center,16.9,46.1,39.7,92,4.1,1.9,0.4,0,1.6,None
+Luguentz Dort,Shooting Guard,16.9,43.2,32.4,84.6,4.2,2,0.9,0.3,1.7,None
+Norman Powell,Small Forward,16.9,50.5,44.4,81.2,2.4,1.6,0.9,0.4,1,None
+Dennis Schroder,Small Forward,16.9,43.4,33,89,3.8,4.8,1,0,2.8,None
+Montrezl Harrell,Shooting Guard,16.6,65.7,28.6,76.5,8.1,2.3,0.5,0.7,1.2,None
+John Collins,Shooting Guard,16.5,57.1,40,77.8,7.7,2.2,0.8,1.4,1,None
+Jarrett Allen,Small Forward,16.3,70.6,25,65.5,11.3,1.8,0.9,1.2,2.1,None
+Seth Curry,Power Forward,16.3,51.3,42.5,91.7,2.9,2.6,0.9,0.1,1.7,None
+Buddy Hield,Power Forward,16.2,38.9,36.8,81.8,4.3,2.3,0.6,0.2,1.6,None
+Will Barton,Shooting Guard,16.1,45.2,38.8,71,5.3,4.2,0.9,0.4,1.8,None
+Christian Wood,Shooting Guard,16,46.4,34,57.1,11.2,2.2,0.5,1,1.9,None
+Collin Sexton,Small Forward,16,45,24.4,74.4,3.3,2.1,0.9,0,2.8,None
+Deandre Ayton,Point Guard,16,63.4,20,58.6,11.5,1.3,0.9,0.7,1.7,None
+Desmond Bane,Shooting Guard,16,47.2,39.6,88.9,4,2,0.8,0.4,1.5,None
+Jaren Jackson Jr.,Point Guard,15.4,40.9,34.6,87,5.7,1,0.8,2.1,1.5,None
+Scottie Barnes,Point Guard,15.4,48.6,35.3,73,8.2,3.3,1.2,0.8,2.2,None
+Jordan Clarkson,Shooting Guard,15.3,38,29.9,82.6,3.2,2.1,0.7,0.2,1.3,None
+Kelly Oubre Jr.,Shooting Guard,15.3,45,37.6,68.9,3.9,1,0.9,0.3,1,None
+Richaun Holmes,Point Guard,15.2,71.9,50,81.8,9.8,1.3,0.3,1,1.6,None
+Rudy Gobert,Power Forward,15.1,73.1,0,66.7,14.5,1,1,2.1,1.9,None
+Bobby Portis,Small Forward,15.1,48.3,42.7,80,8.3,1.4,0.7,0.9,1.5,None
+Keldon Johnson,Shooting Guard,14.9,47.1,40.4,65,6.4,2.1,1,0.2,1.4,None
+Jalen Brunson,Shooting Guard,14.6,49.8,35.5,79.2,4,4.9,0.8,0.1,1.5,None
+Jrue Holiday,Point Guard,14.6,43.2,32.1,68,4.6,5.9,1.4,0.4,2.4,None
+Lauri Markkanen,Shooting Guard,14.5,40.5,33,87.5,6.2,1.2,1,0.6,0.8,None
+Chris Paul,Point Guard,14.5,47.6,34.8,84.6,4.2,10.1,2.1,0.3,2.3,None
+Evan Mobley,Small Forward,14.5,49,34.3,77.6,8.2,2.6,0.9,1.9,1.9,None
+Nikola Vucevic,Small Forward,14.5,42.1,33.3,61.5,11.2,4.1,1.1,1.1,1.7,None
+Carmelo Anthony,Center,14.3,43.6,42.1,83.3,3.7,0.9,0.8,0.7,0.8,None
+Spencer Dinwiddie,Shooting Guard,14.1,40.2,35.2,88.5,5.2,5.5,0.3,0.2,1.6,None
+Tim Hardaway Jr.,Small Forward,14.1,39,34.5,73.8,3.7,2.4,1,0.1,0.6,None
+Aaron Gordon,Shooting Guard,14,52.1,34.4,74.2,6.1,2.3,0.5,0.8,1.5,None
+RJ Barrett,Power Forward,14,39.7,32.1,69.2,5.9,2.1,0.4,0.3,1.7,None
+Jalen Green,Point Guard,14,38.2,27.8,80.7,3.1,2.3,0.6,0.2,2.7,None
+Grayson Allen,Shooting Guard,14,45.8,42.9,87.9,4,1.5,0.7,0.3,0.7,None
+Devonte' Graham,Shooting Guard,14,37.9,35,79.2,2.3,4.7,1.3,0.2,1.9,None
+Caris LeVert,Shooting Guard,13.9,40.8,25.7,73.3,2.9,2.9,0.7,0.4,1.4,None
+Nickeil Alexander-Walker,Point Guard,13.9,36.7,29.5,79.2,4.1,2.6,1,0.4,1.4,None
+Ricky Rubio,Small Forward,13.8,36,35.2,85.9,4,6.3,1.3,0.1,3,None
+Cade Cunningham,Power Forward,13.8,36,27.4,84.4,6.6,4.6,1.3,0.6,3.6,None
+Mike Conley,Power Forward,13.6,50,43.5,85.7,1.8,5.3,1.1,0.3,1.7,None
+LaMarcus Aldridge,Center,13.6,57.1,37.5,78.9,5.9,0.9,0.3,1.2,0.7,None
+Franz Wagner,Shooting Guard,13.4,43.6,36,78,4.3,2.5,1.1,0.5,1.2,None
+Wendell Carter Jr.,Small Forward,13.3,51.9,36.3,68.1,9.5,2.2,0.7,0.6,1.3,None
+Kevin Porter Jr.,Small Forward,13.1,36.2,31.7,62.1,4.6,5.8,1.4,0.3,4.1,None
+Evan Fournier,Small Forward,13.1,41.4,39.4,76.7,2.9,1.7,0.9,0.2,1.3,None
+Chris Duarte,Point Guard,13,41.8,35.8,66.7,4,2,0.9,0.1,1.8,None
+Kyle Kuzma,Shooting Guard,13,42.4,35.4,63.8,8.9,2.8,0.6,0.7,2.2,None
+Eric Gordon,Shooting Guard,13,44.6,41.9,67.4,2,2.6,0.6,0.6,2.3,None
+Myles Turner,Shooting Guard,12.6,52.3,40,70.9,7.7,1,0.6,2.8,1.3,None
+Jusuf Nurkic,Power Forward,12.5,59.1,23.5,74.4,10.8,2.4,1.2,0.5,1.9,None
+Anfernee Simons,Power Forward,12.5,46.5,38.8,94.7,2.8,2.2,0.5,0.2,1.2,None
+Saddiq Bey,Point Guard,12.5,35.5,28.5,73.2,6.2,2.6,1,0.2,1.3,None
+Jakob Poeltl,Point Guard,12.5,63.1,0,33.3,9.3,2,0.6,1.3,1.3,None
+Kelly Olynyk,Point Guard,12.5,45.9,34.1,60,5.3,2.3,1.4,0.7,1.5,None
+Lonzo Ball,Shooting Guard,12.5,42.6,44.4,75,5.2,4.8,1.8,0.7,2.3,None
+Jae'Sean Tate,Small Forward,12.4,50.7,25.9,77.8,6.6,2.5,0.8,0.7,1.9,None
+Mikal Bridges,Shooting Guard,12.4,53.8,39.1,84,3.9,1.9,1.5,0.6,0.8,None
+Al Horford,Small Forward,12.4,46,30.4,84.8,8.3,3.2,0.7,1.8,1.2,None
+Jalen Suggs,Point Guard,12.3,33.9,25.5,76.3,3.4,3.6,1.1,0.4,3.2,None
+Kyle Lowry,Shooting Guard,12.3,41.7,30.6,90.5,4.8,7.6,1.2,0.3,2.9,None
+Derrick Rose,Point Guard,12.2,45.1,41.2,94.7,2.9,3.7,0.9,0.6,1.3,None
+Patty Mills,Shooting Guard,12.2,45.7,47.8,90.9,1.8,2.5,0.5,0.2,0.8,None
+Devin Vassell,Small Forward,12.2,46.7,39.3,72.7,3.9,1.5,1.2,0.7,0.8,None
+Derrick White,Shooting Guard,12.1,39.4,29.8,83.3,3.4,5.2,1.2,1,1.5,None
+Pat Connaughton,Small Forward,12.1,49.7,41.7,70,5,1.6,1,0.4,1,None
+Clint Capela,Small Forward,11.9,58.7,0,52,12.5,1.3,1,1.5,0.6,None
+Monte Morris,Shooting Guard,11.9,47.4,31.7,60,2.6,4.2,0.7,0.1,1.4,None
+Shake Milton,Power Forward,11.9,45.9,30,90.6,3.1,2.9,0.7,0.4,1.1,None
+Kemba Walker,Shooting Guard,11.7,42.9,41.3,80,2.6,3.1,1.1,0.3,1.3,None
+Cedi Osman,Center,11.6,46.9,43,70.8,2.9,1.6,0.7,0.2,0.8,None
+Bogdan Bogdanovic,Power Forward,11.6,44.7,39.1,78.6,3.6,2.5,0.7,0.2,0.9,None
+Cam Reddish,Shooting Guard,11.5,41.3,38.2,89.1,2.8,0.9,1.1,0.2,1.3,None
+Tyrese Haliburton,Shooting Guard,11.5,42.7,36.4,75,3.7,5.5,1.8,0.7,1.8,None
+Joe Harris,Power Forward,11.3,45.2,46.6,83.3,4,1,0.5,0.1,1.1,None
+Georges Niang,Power Forward,11.3,42.7,37.1,92.9,2.7,1.6,0.6,0.3,0.8,None
+Garrison Mathews,Small Forward,11.3,47.5,41.5,76.9,2.6,0.5,0.4,0.3,0.3,None
+Kentavious Caldwell-Pope,Center,11.2,42.8,38.7,87.5,3.7,1.5,1.4,0.4,1.1,None
+Alec Burks,Power Forward,11.1,42.6,44.6,79.6,3.9,2,1.1,0.3,0.8,None
+Kevin Love,Power Forward,11.1,41,35.9,94.3,7.5,2,0.3,0.3,1,None
+Josh Hart,Center,11.1,48.8,32.6,84.8,6.3,3.8,0.9,0.4,1.4,None
+Marcus Smart,Shooting Guard,10.9,38.6,28.8,75,4,5.8,2.1,0.3,1.9,None
+Talen Horton-Tucker,Power Forward,10.9,37.7,28.6,95,5.1,2.6,0.9,0.6,1.5,None
+Rudy Gay,Point Guard,10.9,52,53.1,70,4.9,1.4,0.1,0.3,0.9,None
+De'Andre Hunter,Point Guard,10.8,45,39.5,40,2.7,0.6,0.6,0.3,1.3,None
+Mo Bamba,Power Forward,10.7,45,32.6,70.8,9.3,1.8,0.8,2.2,1.4,None
+Frank Kaminsky,Shooting Guard,10.6,54.5,33.3,90,4.6,1.4,0.9,0.8,0.6,None
+Doug McDermott,Shooting Guard,10.4,44.8,43.9,66.7,2.3,1.2,0.2,0,0.7,None
+Duncan Robinson,Point Guard,10.4,34.9,31.8,62.5,3.6,1.4,0.8,0.3,0.8,None
+Josh Giddey,Shooting Guard,10.4,39.1,25.7,65.4,7.2,5.8,1,0.7,2.8,None
+P.J. Washington,Point Guard,10.3,48.9,47.9,75,4.7,1.8,0.7,1,1.4,None
+Malik Beasley,Small Forward,10.2,34.8,32.9,70,3,1.5,0.7,0.1,0.7,None
+JaVale McGee,Point Guard,10.1,67.1,0,63.2,7,0.6,0.3,0.9,1.6,None
+Ivica Zubac,Point Guard,10.1,66.7,0,76.1,8.2,1.2,0.4,0.8,1.1,None
+De'Anthony Melton,Shooting Guard,10,38.9,35.2,75,4.2,2.3,1.5,0.7,1.4,None
+Lonnie Walker IV,Power Forward,10,36.6,28.3,81.5,3.1,2.6,0.7,0.4,1.3,None
+Luke Kennard,Power Forward,10,41.7,41.7,91.7,3.2,2,0.8,0.1,0.8,None
+Terance Mann,Small Forward,10,45.8,34.9,81,5,2.6,0.7,0.1,1.2,None
+Malik Monk,Power Forward,9.9,45.5,35.8,82.6,2.6,2.2,0.7,0.3,1.3,None
+Michael Porter Jr.,Point Guard,9.9,35.9,20.8,55.6,6.6,1.9,1.1,0.2,1.3,None
+Justin Holiday,Point Guard,9.9,39.8,35.7,72.7,2.8,1.7,0.5,0.3,0.9,None
+Kevin Huerter,Power Forward,9.9,47.8,36.9,75,3.4,2.3,0.4,0.2,1.2,None
+Eric Bledsoe,Point Guard,9.8,42.1,27.9,82.2,4.3,3.4,1.4,0.5,2.2,None
+Nicolas Batum,Power Forward,9.8,52.1,43.8,50,5.5,1.5,1.1,0.8,0.8,None
+Frank Jackson,Point Guard,9.8,39.5,30.7,83.3,1.4,0.8,0.5,0.2,0.9,None
+Terrence Ross,Center,9.6,38.1,29.6,77.8,2,2,0.5,0.2,1.4,None
+Jeff Green,Shooting Guard,9.6,46.3,30.9,79.3,2.6,1.1,0.2,0.4,0.9,None
+Robert Williams III,Power Forward,9.5,73.6,0,60.9,9.3,1.3,0.9,1.9,1.1,None
+Cameron Payne,Shooting Guard,9.4,38.1,31.6,81.6,2.4,2.9,0.6,0.3,1.5,None
+Immanuel Quickley,Power Forward,9.4,40.3,36.7,91.9,2.2,2.5,0.5,0,1,None
+Davion Mitchell,Shooting Guard,9.4,38.1,28.7,65.4,2.7,3.4,0.8,0.2,1.1,None
+Daniel Gafford,Point Guard,9.3,66.7,0,69.4,5.9,1.1,0.6,2.1,1.1,None
+Josh Richardson,Point Guard,9.3,46.7,34,83.3,3,1.3,0.6,0.6,0.8,None
+Furkan Korkmaz,Small Forward,9.2,37.3,32.1,79.2,2.8,2.7,0.8,0.1,1,None
+Dorian Finney-Smith,Small Forward,9,43.1,35.4,61.9,4.4,1.4,1.5,0.5,0.9,None
+Damion Lee,Small Forward,8.9,43.8,35.2,81,2.9,1.2,0.2,0.1,0.7,None
+Chimezie Metu,Point Guard,8.9,39,25.9,73.3,6.9,1.1,0.8,0.6,1.1,None
+Jae Crowder,Point Guard,8.9,38.1,33.6,76.9,4.7,1.4,1.3,0.5,0.8,None
+Cameron Johnson,Power Forward,8.8,41.1,39,71.4,3.2,1.2,0.7,0.2,0.6,None
+Darius Bazley,Small Forward,8.8,34.8,26.6,62.5,6.7,1.4,0.8,1.1,1.4,None
+Alex Caruso,Center,8.7,44.9,33.9,85.1,3.8,4.2,2.2,0.4,1.4,None
+Naz Reid,Point Guard,8.7,49.3,33.3,71.1,3.5,0.8,0.6,1,0.8,None
+T.J. McConnell,Point Guard,8.4,50.3,28,80,3.3,4.8,1,0.4,1.2,None
+Alperen Sengun,Shooting Guard,8.4,49.1,40.9,66.7,4.7,2.6,1.2,0.6,1.9,None
+Marcus Morris Sr.,Shooting Guard,8.3,32.2,24.1,83.3,3.5,2,0.5,0.7,1.5,None
+Mike Muscala,Power Forward,8.3,44.8,43.6,79.3,3.2,0.6,0.4,0.7,0.5,None
+Nassir Little,Point Guard,8.3,47.8,31.7,82.8,5.3,0.8,0.8,0.6,0.9,None
+Willy Hernangomez,Point Guard,8.2,68,100,75,5.4,1.7,0.4,0.2,1.2,None
+Draymond Green,Shooting Guard,8.2,55.1,31.6,60,8,7.7,1.1,0.9,3.2,None
+Obi Toppin,Shooting Guard,8.1,53.7,17.6,75,3.5,1,0.3,0.7,0.9,None
+Daniel Theis,Point Guard,8.1,48.1,29.8,72.7,4.9,0.8,0.4,0.6,1.3,None
+Patrick Beverley,Small Forward,8.1,45.8,33.9,70.6,4.4,4.5,0.9,1,1.2,None
+Bones Hyland,Shooting Guard,8,38.5,35.2,93.8,1.9,1.7,0.7,0.2,0.9,None
+Brook Lopez,Small Forward,8,33.3,50,0,5,0,1,3,0,None
+Goran Dragic,Center,8,38.2,28.6,100,2.8,1.8,1,0.2,0.2,None
+Louis King,Shooting Guard,8,33.3,28.6,85.7,2.3,0.3,0.7,0,0,None
+Max Strus,Small Forward,8,42.9,38.4,61.5,3.3,1,0.5,0.1,0.6,None
+Precious Achiuwa,Power Forward,8,38,28,57.6,7.9,1.5,0.5,0.5,1.1,None
+Danilo Gallinari,Power Forward,7.9,37.8,37.3,90.9,3.7,1.2,0.5,0.2,0.5,None
+Maxi Kleber,Power Forward,7.9,46.9,39.5,83.3,5,0.9,0.5,1.1,0.4,None
+Joe Ingles,Small Forward,7.9,45.7,40.8,88.9,3,3.2,0.6,0.1,1,None
+Isaac Okoro,Small Forward,7.9,39.3,20.9,72.4,4.2,1.9,0.9,0.3,1.1,None
+George Hill,Center,7.9,45.1,33.9,96,3.7,2.5,0.9,0.1,1.1,None
+Kyle Anderson,Power Forward,7.9,42.9,36,78.9,5.2,2.4,0.9,0.5,1,None
+Trey Lyles,Point Guard,7.9,42,29,77.1,4.2,0.8,0.3,0.2,1,None
+Otto Porter Jr.,Shooting Guard,7.7,47.7,43.4,75,4.7,1.2,0.9,0.4,0.7,None
+Markieff Morris,Point Guard,7.7,45.7,36.4,100,2.8,1.4,0.3,0.1,1.2,None
+Cody Martin,Point Guard,7.7,47.7,47.6,71.4,4.1,2.2,1.3,0.5,0.4,None
+Danny Green,Shooting Guard,7.7,46.5,41.9,100,2.3,1.1,1.6,0.7,0.9,None
+Jordan Nwora,Small Forward,7.6,39.4,35.2,84.6,3.5,1.2,0.2,0.5,1.3,None
+Royce O'Neale,Small Forward,7.6,46.1,35.4,66.7,4.7,2.1,1.7,0.8,1.2,None
+Brandon Clarke,Point Guard,7.6,60.8,0,66.7,4.5,1.4,0.4,0.8,0.4,None
+R.J. Hampton,Shooting Guard,7.4,40.8,40,56.3,3.2,2.3,0.5,0.2,1.5,None
+Isaiah Stewart,Center,7.4,52.5,9.1,72.7,7.6,1.1,0.4,1.2,1.1,None
+Jeremy Lamb,Shooting Guard,7.4,41.5,40.8,100,2.6,1.1,0.5,0.4,0.5,None
+Grant Williams,Shooting Guard,7.4,51.4,43.2,90.5,3.4,1.1,0.3,0.5,0.5,None
+Isaiah Hartenstein,Small Forward,7.4,64.4,66.7,63.9,5.1,1.6,0.9,1.1,1,None
+Josh Jackson,Power Forward,7.3,40.7,28.1,69.7,3.5,1.7,0.4,0.5,1.2,None
+Thaddeus Young,Point Guard,7.3,59.6,0,35.7,3.6,2.9,1,0.4,1.1,None
+Jeremiah Robinson-Earl,Small Forward,7.3,44.8,36.9,60,5.8,1,0.6,0.3,0.9,None
+Raul Neto,Small Forward,7.3,45.5,23.5,69.7,2,2.4,0.8,0,1.3,None
+Landry Shamet,Shooting Guard,7.3,38,37.8,82.6,2.4,1.7,0.3,0.1,0.5,None
+Svi Mykhailiuk,Small Forward,7.2,43.9,34.2,90,2.5,1,0.8,0.1,0.7,None
+Bruce Brown,Center,7.2,49.1,31.8,75,3.9,1.1,1.3,0.5,0.7,None
+Terence Davis,Point Guard,7.1,36.9,25.8,63.6,2.3,0.8,0.7,0.3,1.1,None
+DeMarcus Cousins,Power Forward,7,60,50,0,4,1,1,0,0,None
+Kelan Martin,Center,7,42,26.5,66.7,1.9,1,0.5,0.4,0.6,None
+Sekou Doumbouya,Small Forward,7,62.5,50,75,3,0,1.5,1,1,None
+Hassan Whiteside,Power Forward,7,58,0,69.8,6.5,0.2,0.2,1.3,1,None
+Chuma Okeke,Center,6.9,37.7,22.6,87,4.1,1.2,0.7,0.2,0.8,None
+Khem Birch,Point Guard,6.9,50,0,72.7,5.7,1.3,1,0.5,0.6,None
+Mitchell Robinson,Small Forward,6.9,79.7,0,57.9,7.8,0.8,0.4,1.5,0.6,None
+Ty Jerome,Center,6.9,40.6,31.7,85.2,1.2,1.1,0.7,0.1,0.3,None
+P.J. Tucker,Small Forward,6.8,50.4,43.9,81.8,5.6,1.5,0.6,0.2,0.8,None
+Kenyon Martin Jr.,Point Guard,6.8,53.8,27.6,66.7,3.1,1,0.5,0.5,0.5,None
+Mason Plumlee,Center,6.8,59.6,0,34.6,7.3,2.8,0.9,1,1.2,None
+Kenrich Williams,Power Forward,6.8,45,33.3,57.1,3.5,1.7,0.7,0.2,0.8,None
+Zeke Nnaji,Power Forward,6.8,53.8,66.7,58.3,3.2,0.1,0,0.4,0.6,None
+Gary Harris,Small Forward,6.8,39,24.1,85.7,1.9,1.8,0.7,0.1,1.1,None
+Robin Lopez,Center,6.8,59.5,0,62.5,2.6,1,0,0.6,1.1,None
+Cory Joseph,Center,6.7,43.8,30.8,81.6,1.9,3.5,0.9,0.2,1.4,None
+Tre Mann,Center,6.7,40.2,31.3,73.3,1.8,0.2,0.5,0.3,0.8,None
+Wayne Ellington,Center,6.7,40.2,39.5,100,1.6,0.7,0.4,0.1,0.4,None
+Patrick Williams,Center,6.6,56.5,50,100,2.2,0.6,0.6,0.4,0.4,None
+Andre Drummond,Center,6.6,47.1,0,56.5,10.7,2.1,0.9,1.2,1.8,None
+Robert Covington,Center,6.5,40.3,37,100,4.5,1.2,1,1,1,None
+Trey Burke,Center,6.5,50,42.1,90.9,0.7,1.5,0.5,0,0.9,None
+Derrick Jones Jr.,Center,6.5,60.3,26.7,83.3,3.4,0.6,0.5,0.8,0.4,None
+Nic Claxton,Point Guard,6.5,55,0,44.4,5.5,0.8,0,1,0.8,None
+Steven Adams,Center,6.4,49.5,0,68.8,8,2.8,0.9,0.8,1.5,None
+Gary Payton II,Center,6.4,67.1,36,63,3.2,0.8,1.5,0.1,0.4,None
+Isaiah Roby,Center,6.4,53.7,30.8,72.7,2.7,0.8,0.3,0.5,0.5,None
+Lou Williams,Power Forward,6.4,38.8,35.7,85.7,1.5,1.5,0.5,0.1,0.7,None
+Matisse Thybulle,Center,6.3,52,30.6,100,2.5,1.1,2.1,1.5,1.1,None
