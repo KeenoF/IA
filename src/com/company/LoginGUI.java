@@ -44,7 +44,7 @@ public class LoginGUI implements ActionListener, DocumentListener {
         label2.setBounds(LEFT_MARGIN, TOP_MARGIN + TEXT_HEIGHT, TEXT_WIDTH, TEXT_HEIGHT);
         frame.add(label2);
 
-        incorrectLabel = new JLabel("<html><font size='2' color=blue> Welcome to</font></html>");
+        incorrectLabel = new JLabel("<html><font size='2' color=red> Incorrect Password </font></html>");
         incorrectLabel.setBounds(LEFT_MARGIN, TOP_MARGIN + TEXT_HEIGHT*2,TEXT_WIDTH, TEXT_HEIGHT);
         incorrectLabel.setEnabled(false);
         frame.add(incorrectLabel);

@@ -209,6 +209,7 @@ public class TeamGUI implements ActionListener, DocumentListener {
             threepointLabel.setText("3P%: " + Double.toString(p.getThreepointpercentage()) + "%");
             freethrowLabel.setText("FT%: " + Double.toString(p.getFreethrowpercentage()) + "%");
             fieldgoalLabel.setText("FG%: " + Double.toString(p.getFieldgoalpercentage()) + "%");
+            ownerLabel.setText("Owner: " + p.getOwner());
         }
 
     }
