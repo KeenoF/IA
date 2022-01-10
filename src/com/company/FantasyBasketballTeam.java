@@ -7,34 +7,6 @@ public class FantasyBasketballTeam extends FantasyTeam {
         super(teamName,5);
     }
 
-    private ArrayList<String> convertToText() {
-        BasketballPlayer tempPlayer;
-        ArrayList<String> text = new ArrayList<>();
-        System.out.println(team.size());
-        for (int i = 0; i < team.size(); i++) {
-            tempPlayer = (BasketballPlayer) team.get(i);
-            text.add(tempPlayer.getName() + ",");
-            text.add(tempPlayer.getPos() + ",");
-            text.add(Double.toString(tempPlayer.getPoints()) + ",");
-            text.add(Double.toString(tempPlayer.getRebounds()) + ",");
-            text.add(Double.toString(tempPlayer.getAssists()) + ",");
-            text.add(Double.toString(tempPlayer.getBlock()) + ",");
-            text.add(Double.toString(tempPlayer.getSteals()) + ",");
-            text.add(Double.toString(tempPlayer.getTurnover()) + ",");
-            text.add(Double.toString(tempPlayer.getFieldgoalpercentage()) + ",");
-            text.add(Double.toString(tempPlayer.getThreepointpercentage()) + ",");
-            text.add(Double.toString(tempPlayer.getFreethrowpercentage()) + ",");
-            text.add("\n");
-        }
-        return text;
-    }
-
-    public void writeTeam(String fileName) {
-        FileHandling.writeToFile(fileName, convertToText(), true);
-    }
-
-
-
     public void overallScore() {
         int overallscore = 0;
         ArrayList<String> overallPlayers;
@@ -130,7 +102,6 @@ public class FantasyBasketballTeam extends FantasyTeam {
     public void displayTeamStats(){
         super.displayTeamStats();
     }
-
 
     public BasketballPlayer getPlayer(int playerNumber){
         return (BasketballPlayer) super.getPlayer(playerNumber);

@@ -1,8 +1,9 @@
 package com.company;
+
 import java.awt.event.*;
 import javax.swing.*;
 
-public class GUI implements ActionListener {
+public class LeagueGUI implements ActionListener {
     private int currentPlayerNumber;
     private FantasyLeague testFantasy;
     private FantasyBasketballTeam currentTeam;
@@ -20,7 +21,7 @@ public class GUI implements ActionListener {
     private String user;
 
     private JFrame frame;
-    private TeamGUI addForm;
+    private TeamGUI teamForm;
     private JLabel nameLabel;
     private JLabel positionLabel;
     private JLabel pointLabel;
@@ -38,7 +39,7 @@ public class GUI implements ActionListener {
     private JButton teamButton;
     private JButton chooseButton;
 
-    public GUI(FantasyLeague fantasyLeague){
+    public LeagueGUI(FantasyLeague fantasyLeague){
         this.testFantasy = fantasyLeague;
         this.user = "None";
         currentPlayerNumber = 0;
@@ -95,14 +96,14 @@ public class GUI implements ActionListener {
         frame.add(ownerLabel);
 
 
-        //Previous Button
+        //Previous Button which clicks backwards through the data file of players
         previousButton = new JButton("<");
         previousButton.setBounds(LEFT_MARGIN, BUTTON_Y,BUTTON_WIDTH,BUTTON_HEIGHT);
         previousButton.addActionListener(this);
         previousButton.setEnabled(false);
         frame.add(previousButton);
 
-        //Next Button
+        //Next Button which clicks forward through the data file of players
         nextButton = new JButton(">");
         nextButton.setBounds(LEFT_MARGIN + BUTTON_WIDTH, BUTTON_Y, BUTTON_WIDTH,BUTTON_HEIGHT);
         nextButton.addActionListener(this);
@@ -123,7 +124,11 @@ public class GUI implements ActionListener {
         chooseButton.setEnabled(true);
         frame.add(chooseButton);
 
+        //
         displayPlayerDetails(currentPlayerNumber);
+
+        //
+        checkAvailability();
 
         //Other frame attributes
         frame.setSize(FRAME_WIDTH,FRAME_HEIGHT);
@@ -131,7 +136,7 @@ public class GUI implements ActionListener {
         frame.setVisible(false);
 
         //create the edit form but it is invisible for now
-        addForm = new TeamGUI(this.testFantasy,this);
+        teamForm = new TeamGUI(this.testFantasy,this);
     }
 
     @Override
@@ -140,9 +145,10 @@ public class GUI implements ActionListener {
             currentPlayerNumber++;
             displayPlayerDetails(currentPlayerNumber);
             previousButton.setEnabled(true);
-            if(currentPlayerNumber == 263){
+            if(currentPlayerNumber == 251){
                 nextButton.setEnabled(false);
             }
+            checkAvailability();
         }
         if (e.getActionCommand() == "<"){
             currentPlayerNumber--;
@@ -150,24 +156,28 @@ public class GUI implements ActionListener {
             if(currentPlayerNumber == 0){
                 previousButton.setEnabled(false);
             }
+            checkAvailability();
+
         }
         if (e.getActionCommand() == "Team"){
-            addForm.show();
+            teamForm.setCurrentTeam(currentTeam);
+            teamForm.show();
             frame.setVisible(false);
         }
         if (e.getActionCommand() == "Choose"){
             if(currentTeam == null){
                 currentTeam = new FantasyBasketballTeam("Team 1");
                 System.out.println(currentTeam == null);
-                addForm.setTeam(currentTeam);
+                teamForm.setTeam(currentTeam);
             }
             currentTeam.addPlayer(testFantasy.getPlayer(currentPlayerNumber));
-            addForm.refresh();
+            testFantasy.setPlayerOwner(user, testFantasy.getPlayer(currentPlayerNumber));
+            testFantasy.writePlayers("players.txt");
+            teamForm.refresh();
             if(currentTeam.isFull()){
                 chooseButton.setEnabled(false);
             }
         }
-
     }
 
     private void displayPlayerDetails(int currentPlayerNumber){
@@ -189,6 +199,7 @@ public class GUI implements ActionListener {
 
     public void enableChoose(){
         chooseButton.setEnabled(true);
+        System.out.println("Enabling");
     }
 
     public void makeVisible(){
@@ -199,4 +210,34 @@ public class GUI implements ActionListener {
         user = u;
         return true;
     }
-}
+
+    public void checkAvailability(){
+        if(testFantasy.getPlayer(currentPlayerNumber).getOwner().equals("None") == false || currentTeam.isFull()){
+            chooseButton.setEnabled(false);
+        }else{
+            chooseButton.setEnabled(true);
+        }
+
+    }
+
+    public void buildTeam() {
+        System.out.println(user);
+        currentTeam = new FantasyBasketballTeam("Team 1");
+        for (int i = 0; i < testFantasy.size(); i++) {
+            if (testFantasy.getPlayer(i).getOwner().equals(user)) {
+                currentTeam.addPlayer(testFantasy.getPlayer(i));
+            }
+        }
+        if (currentTeam.isFull()) {
+            chooseButton.setEnabled(false);
+            System.out.println("Choose:" + chooseButton.isEnabled());
+        }
+    }
+
+    public FantasyBasketballTeam getCurrentTeam () {
+            return currentTeam;
+        }
+
+    }
+
+

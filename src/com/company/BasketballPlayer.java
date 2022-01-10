@@ -11,6 +11,7 @@ public class BasketballPlayer extends Player{
     private double threepointpercentage;
     private double freethrowpercentage;
 
+    //
     public boolean setPoints(double p){
         if (p >= 0){
             points = p;
@@ -22,6 +23,7 @@ public class BasketballPlayer extends Player{
         }
     }
 
+    //
     public boolean setRebounds(double r){
         if (r >= 0){
             rebounds = r;
@@ -33,6 +35,7 @@ public class BasketballPlayer extends Player{
         }
     }
 
+    //
     public boolean setAssists(double a){
         if (a >= 0){
             assists = a;
@@ -44,6 +47,7 @@ public class BasketballPlayer extends Player{
         }
     }
 
+    //
     public boolean setBlocks(double b){
         if (b >= 0){
             blocks = b;
@@ -55,6 +59,7 @@ public class BasketballPlayer extends Player{
         }
     }
 
+    //
     public boolean setSteals(double s){
         if (s > 0){
             steals = s;
@@ -67,6 +72,7 @@ public class BasketballPlayer extends Player{
 
     }
 
+    //
     public boolean setTurnover(double t){
         if (t > 0){
             turnover = t;
@@ -79,6 +85,7 @@ public class BasketballPlayer extends Player{
 
     }
 
+    //
     public boolean setFieldgoalpercentage(double fg){
         if (fg > 0){
             fieldgoalpercentage = fg;
@@ -91,6 +98,7 @@ public class BasketballPlayer extends Player{
 
     }
 
+    //
     public boolean setThreepointpercentage(double tp){
         if (threepointpercentage > 0){
             threepointpercentage = tp;
@@ -103,6 +111,7 @@ public class BasketballPlayer extends Player{
 
     }
 
+    //
     public boolean setFreethrowpercentage(double ft){
         if (freethrowpercentage > 0){
             freethrowpercentage = ft;
@@ -115,42 +124,52 @@ public class BasketballPlayer extends Player{
 
     }
 
+    //
     public double getPoints(){
         return points;
     }
 
+    //
     public double getRebounds(){
         return rebounds;
     }
 
+    //
     public double getAssists(){
         return assists;
     }
 
+    //
     public double getBlock(){
         return blocks;
     }
 
+    //
     public double getSteals(){
         return steals;
     }
 
+    //
     public double getTurnover(){
         return turnover;
     }
 
+    //
     public double getFieldgoalpercentage(){
         return fieldgoalpercentage;
     }
 
+    //
     public double getThreepointpercentage(){
         return threepointpercentage;
     }
 
+    //Getter for Free Throw Percentage
     public double getFreethrowpercentage(){
         return freethrowpercentage;
     }
 
+    //Constructor for a basketball player which sets all of their statistics
     public BasketballPlayer(String name,String position,double points,double rebounds,double steals,double assists,double blocks,double turnover,
                             double fieldgoalpercentage,double threepointpercentage,double freethrowpercentage, String owner ){
         super(name,position,owner);
@@ -166,6 +185,7 @@ public class BasketballPlayer extends Player{
 
 
     }
+
     // Display basketball specific stats
     @Override
     public void display(){
@@ -183,7 +203,7 @@ public class BasketballPlayer extends Player{
         System.out.println(getName() + " is owned by " + getOwner());
     }
 
-    //Clone all of the field s from one player to another
+    //Clones all of the fields from one player to another
     public void copy(BasketballPlayer p){
         super.copy(p);
         this.assists = p.assists;

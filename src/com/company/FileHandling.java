@@ -10,8 +10,8 @@ import java.util.ArrayList;
 
 public class FileHandling {
 
+    //Reads and prints out the contents of a text file
     public static ArrayList<String> readFileData(String fileName) {
-        // read and print out the contents of a text file
 
         ArrayList<String> fileData = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
@@ -23,13 +23,13 @@ public class FileHandling {
             }
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("Error reading" + fileName);
         }
-
         return fileData;
     }
 
+    //Writes content to a file
     public static void writeToFile(String fileName, ArrayList<String> data, boolean append) {
-
         try (PrintWriter pr = new PrintWriter(new FileWriter(fileName, append))) {
             for(int i = 0; i < data.size(); i++){
                 pr.print(data.get(i));

@@ -13,12 +13,6 @@ public class Player {
     }
 
     //
-    public boolean setName(String n){
-        name = n;
-        return true;
-    }
-
-    //
     public boolean setOwner(String o){
         owner = o;
         return true;
@@ -57,4 +51,5 @@ public class Player {
     public void copy(Player p){
         this.position = p.position;
     }
+
 }

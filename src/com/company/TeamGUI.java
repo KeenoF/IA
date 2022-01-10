@@ -8,9 +8,8 @@ import java.awt.event.ActionListener;
 
 public class TeamGUI implements ActionListener, DocumentListener {
     private int currentPlayerNumber;
-    private FantasyLeague testfantasy;
+    private FantasyLeague testFantasy;
     private FantasyBasketballTeam currentTeam;
-
 
     private final int FRAME_WIDTH = 400;
     private final int FRAME_HEIGHT = 600;
@@ -23,7 +22,7 @@ public class TeamGUI implements ActionListener, DocumentListener {
     private final int TEXT_HEIGHT = 30;
 
     private JFrame frame;
-    private GUI mainGUI;
+    private LeagueGUI mainGUI;
     private JLabel nameLabel;
     private JLabel positionLabel;
     private JLabel pointLabel;
@@ -42,9 +41,9 @@ public class TeamGUI implements ActionListener, DocumentListener {
     private JButton removeButton;
 
 
-    public TeamGUI(FantasyLeague fantasyleague, GUI mainGUI) {
-        this.testfantasy = fantasyleague;
-        this.mainGUI = mainGUI;
+    public TeamGUI(FantasyLeague fantasyleague, LeagueGUI leagueGUI) {
+        this.testFantasy = fantasyleague;
+        this.mainGUI = leagueGUI;
         this.currentTeam = null;
         frame = new JFrame("Team");
 
@@ -167,6 +166,9 @@ public class TeamGUI implements ActionListener, DocumentListener {
         }
 
         if (e.getActionCommand() == "Remove"){
+            currentTeam.getPlayer(currentPlayerNumber).setOwner("None");
+            testFantasy.setPlayerOwner("None", testFantasy.getPlayer(currentPlayerNumber));
+            testFantasy.writePlayers("players.txt");
             for(int i = 0; i < currentTeam.getTeamSize(); i++ ){
                 System.out.println(currentTeam.getTeamSize());
             }
@@ -219,6 +221,11 @@ public class TeamGUI implements ActionListener, DocumentListener {
     }
 
     public void refresh(){
+        displayPlayerDetails(currentPlayerNumber);
+    }
+
+    public void setCurrentTeam(FantasyBasketballTeam t){
+        currentTeam = t;
         displayPlayerDetails(currentPlayerNumber);
     }
 

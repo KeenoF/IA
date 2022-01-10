@@ -1,8 +1,6 @@
 package com.company;
 
-import javax.print.DocFlavor;
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class FantasyTeam {
     private int teamSize;

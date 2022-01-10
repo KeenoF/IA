@@ -1,11 +1,11 @@
 package com.company;
+
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class LoginGUI implements ActionListener, DocumentListener {
 
@@ -24,14 +24,14 @@ public class LoginGUI implements ActionListener, DocumentListener {
     private final int TEXT_HEIGHT = 30;
 
     private JFrame frame;
-    private GUI mainGUI;
+    private LeagueGUI leagueGUI;
     private JTextField usernameField;
     private JPasswordField passwordField;
     private JButton confirmButton;
     private JLabel incorrectLabel;
 
-    public LoginGUI(GUI mainGUI, String loginFile) {
-        this.mainGUI = mainGUI;
+    public LoginGUI(LeagueGUI leagueGUI, String loginFile) {
+        this.leagueGUI = leagueGUI;
 
         frame = new JFrame("Login");
 
@@ -98,8 +98,9 @@ public class LoginGUI implements ActionListener, DocumentListener {
             }
             String passwordText = new String(passwordField.getPassword());
             if(userFound != -1 && passwordText.equals(password.get(userFound))){
-                System.out.println("Password Matches");
-                mainGUI.makeVisible();
+                leagueGUI.setUser(usernameField.getText());
+                leagueGUI.makeVisible();
+                leagueGUI.buildTeam();
                 frame.setVisible(false);
             }else{
                 incorrectLabel.setEnabled(true);
@@ -134,5 +135,7 @@ public class LoginGUI implements ActionListener, DocumentListener {
 
         }
     }
+
+
 
 }

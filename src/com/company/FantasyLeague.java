@@ -1,8 +1,7 @@
 package com.company;
 
-import javax.crypto.AEADBadTagException;
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 //Contains all the players available for selection for a team
 public class FantasyLeague {
@@ -11,6 +10,7 @@ public class FantasyLeague {
     //Constructs
     public FantasyLeague(String dataFile) {
         players = new ArrayList<>();
+        System.out.println("Reading league data from" + dataFile);
         readPlayers(dataFile);
     }
 
@@ -53,11 +53,32 @@ public class FantasyLeague {
         }
     }
 
-    public void displayAll() {
+    private ArrayList<String> convertToText() {
+        BasketballPlayer tempPlayer;
+        ArrayList<String> text = new ArrayList<>();
+        System.out.println("numbers = " + players.size());
         for (int i = 0; i < players.size(); i++) {
-            System.out.println(i + 1);
-            players.get(i).display();
+            tempPlayer = players.get(i);
+            text.add(tempPlayer.getName() + ",");
+            text.add(tempPlayer.getPos() + ",");
+            text.add(Double.toString(tempPlayer.getPoints()) + ",");
+            text.add(Double.toString(tempPlayer.getRebounds()) + ",");
+            text.add(Double.toString(tempPlayer.getAssists()) + ",");
+            text.add(Double.toString(tempPlayer.getBlock()) + ",");
+            text.add(Double.toString(tempPlayer.getSteals()) + ",");
+            text.add(Double.toString(tempPlayer.getTurnover()) + ",");
+            text.add(Double.toString(tempPlayer.getFieldgoalpercentage()) + ",");
+            text.add(Double.toString(tempPlayer.getThreepointpercentage()) + ",");
+            text.add(Double.toString(tempPlayer.getFreethrowpercentage()) + ",");
+            text.add(tempPlayer.getOwner() + ",");
+            text.add("\n");
         }
+        return text;
+    }
+
+    public void writePlayers(String filename){
+        FileHandling.writeToFile(filename,convertToText(),false);
+
     }
 
     //Getter for when a user enters a number that corresponds with a certain player that can choose that player to select
@@ -71,20 +92,13 @@ public class FantasyLeague {
         }
     }
 
-    public BasketballPlayer choosePlayer() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number corresponding to number associated to a player");
-        int a = sc.nextInt();
-        return players.get(a);
+    public void setPlayerOwner(String owner, Player player){
+        player.setOwner(owner);
     }
 
-    public FantasyBasketballTeam buildTeam(){
-        FantasyBasketballTeam newTeam = new FantasyBasketballTeam("dummy");
-        for( int i = 0; i<5; i++){
-            BasketballPlayer newplayer = choosePlayer();
-            newTeam.addPlayer(newplayer);
-        }
-        return newTeam;
+    public int size(){
+        return players.size();
     }
+
 
 }
