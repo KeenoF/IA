@@ -24,6 +24,7 @@ public class FantasyLeague {
             players.add(p);
         }
     }
+
     //Reads in a new text file with updated stats and updates players with their new stats
     public void updatePlayers(){
         ArrayList<String> updatePlayers;

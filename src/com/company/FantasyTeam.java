@@ -27,11 +27,7 @@ public class FantasyTeam {
     }
 
 
-    //Display method to print the list of players to console
-    public String getTeamName() {
 
-        return teamName;
-    }
 
     //
     public int getTeamSize() {
@@ -78,7 +74,11 @@ public class FantasyTeam {
 
     //
     public boolean isFull(){
-        return team.size() >= 5;
+        return team.size() == 5;
+    }
+
+    public boolean isNotFull(){
+        return team.size() <5;
     }
 
     //

@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
-public class LoginGUI implements ActionListener, DocumentListener {
+public class LoginGUI implements ActionListener {
 
     ArrayList<String> user;
     ArrayList<String> password;
@@ -52,12 +52,10 @@ public class LoginGUI implements ActionListener, DocumentListener {
         // Input text
         usernameField = new JTextField();
         usernameField.setBounds(TAB1, TOP_MARGIN, TEXT_WIDTH, TEXT_HEIGHT);
-        usernameField.getDocument().addDocumentListener(this);
         frame.add(usernameField);
 
         passwordField = new JPasswordField();
         passwordField.setBounds(TAB1, TOP_MARGIN + TEXT_HEIGHT, TEXT_WIDTH, TEXT_HEIGHT);
-        passwordField.getDocument().addDocumentListener(this);
         frame.add(passwordField);
 
         //Confirm button which takes you to the GUI class
@@ -108,20 +106,6 @@ public class LoginGUI implements ActionListener, DocumentListener {
         }
     }
 
-    @Override
-    public void changedUpdate(DocumentEvent e) {
-        System.out.println("change!");
-    }
-
-    @Override
-    public void removeUpdate(DocumentEvent e) {
-        System.out.println("remove!");
-    }
-
-    @Override
-    public void insertUpdate(DocumentEvent e) {
-        System.out.println("insert! ");
-    }
 
     public void readUsers(String fileName) {
         ArrayList<String> allUsers;

@@ -22,7 +22,6 @@ public class FileHandling {
 
             }
         } catch (IOException e) {
-            e.printStackTrace();
             System.out.println("Error reading" + fileName);
         }
         return fileData;
@@ -37,10 +36,9 @@ public class FileHandling {
 
         }
         catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Error writing" + fileName);
         }
 
     }
 
 }
-

@@ -170,12 +170,15 @@ public class LeagueGUI implements ActionListener {
                 System.out.println(currentTeam == null);
                 teamForm.setTeam(currentTeam);
             }
-            currentTeam.addPlayer(testFantasy.getPlayer(currentPlayerNumber));
-            testFantasy.setPlayerOwner(user, testFantasy.getPlayer(currentPlayerNumber));
-            testFantasy.writePlayers("players.txt");
-            teamForm.refresh();
-            if(currentTeam.isFull()){
-                chooseButton.setEnabled(false);
+            if(currentTeam.isNotFull()) {
+                currentTeam.addPlayer(testFantasy.getPlayer(currentPlayerNumber));
+                testFantasy.setPlayerOwner(user, testFantasy.getPlayer(currentPlayerNumber));
+                testFantasy.writePlayers("players.txt");
+                teamForm.refresh();
+                if (currentTeam.isFull()) {
+                    chooseButton.setEnabled(false);
+
+                }
             }
         }
     }
@@ -199,7 +202,6 @@ public class LeagueGUI implements ActionListener {
 
     public void enableChoose(){
         chooseButton.setEnabled(true);
-        System.out.println("Enabling");
     }
 
     public void makeVisible(){
@@ -212,7 +214,7 @@ public class LeagueGUI implements ActionListener {
     }
 
     public void checkAvailability(){
-        if(testFantasy.getPlayer(currentPlayerNumber).getOwner().equals("None") == false || currentTeam.isFull()){
+        if(testFantasy.getPlayer(currentPlayerNumber).getOwner().equals("None") == false){
             chooseButton.setEnabled(false);
         }else{
             chooseButton.setEnabled(true);
@@ -230,7 +232,7 @@ public class LeagueGUI implements ActionListener {
         }
         if (currentTeam.isFull()) {
             chooseButton.setEnabled(false);
-            System.out.println("Choose:" + chooseButton.isEnabled());
+
         }
     }
 

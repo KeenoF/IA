@@ -6,12 +6,12 @@ import javax.swing.event.DocumentListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class TeamGUI implements ActionListener, DocumentListener {
+public class TeamGUI implements ActionListener{
     private int currentPlayerNumber;
     private FantasyLeague testFantasy;
     private FantasyBasketballTeam currentTeam;
 
-    private final int FRAME_WIDTH = 400;
+    private final int FRAME_WIDTH = 450;
     private final int FRAME_HEIGHT = 600;
     private final int LEFT_MARGIN = 100;
     private final int TOP_MARGIN = 20;
@@ -23,6 +23,8 @@ public class TeamGUI implements ActionListener, DocumentListener {
 
     private JFrame frame;
     private LeagueGUI mainGUI;
+    private StandingGUI standingGUI;
+    private ScoreGUI scoreGUI;
     private JLabel nameLabel;
     private JLabel positionLabel;
     private JLabel pointLabel;
@@ -39,6 +41,8 @@ public class TeamGUI implements ActionListener, DocumentListener {
     private JButton nextButton;
     private JButton previousButton;
     private JButton removeButton;
+    private JButton standingButton;
+    private JButton scoreButton;
 
 
     public TeamGUI(FantasyLeague fantasyleague, LeagueGUI leagueGUI) {
@@ -111,6 +115,13 @@ public class TeamGUI implements ActionListener, DocumentListener {
         nextButton.setEnabled(true);
         frame.add(nextButton);
 
+        //Team Socre Butoon which shows the user the overall score of their team
+        scoreButton = new JButton("Score");
+        scoreButton.setBounds(LEFT_MARGIN + BUTTON_WIDTH*2, BUTTON_Y, BUTTON_WIDTH,BUTTON_HEIGHT);
+        scoreButton.addActionListener(this);
+        scoreButton.setEnabled(true);
+        frame.add(scoreButton);
+
         //Back Button takes you back to the main GUI which shows you the whole league
         backButton = new JButton("Back");
         backButton.setBounds(LEFT_MARGIN, BUTTON_Y + BUTTON_HEIGHT,BUTTON_WIDTH,BUTTON_HEIGHT);
@@ -124,13 +135,20 @@ public class TeamGUI implements ActionListener, DocumentListener {
         removeButton.setEnabled(true);
         frame.add(removeButton);
 
+        standingButton = new JButton("Standings");
+        standingButton.setBounds(LEFT_MARGIN + BUTTON_WIDTH*2, BUTTON_Y + BUTTON_HEIGHT,BUTTON_WIDTH,BUTTON_HEIGHT);
+        standingButton.addActionListener(this);
+        standingButton.setEnabled(true);
+        frame.add(standingButton);
+
         // other frame attributes
         frame.setSize(FRAME_WIDTH, FRAME_HEIGHT);
         frame.setLayout(null);
         frame.setVisible(false);
 
-        //displayPlayerDetails(currentPlayerNumber);
-
+        //create edit forms but they are invisible for now
+        standingGUI = new StandingGUI(this.testFantasy,this);
+        scoreGUI = new ScoreGUI(this.testFantasy,this);
 
     }
 
@@ -179,23 +197,17 @@ public class TeamGUI implements ActionListener, DocumentListener {
             currentTeam.displayTeam();
             System.out.println(currentPlayerNumber);
         }
+        if (e.getActionCommand() == "Standings"){
+            standingGUI.show();
+            frame.setVisible(false);
+        }
+        if (e.getActionCommand() == "Score"){
+            scoreGUI.refreshScore();
+            scoreGUI.show();
+            frame.setVisible(false);
+        }
     }
 
-    @Override
-    public void changedUpdate(DocumentEvent e) {
-        // triggers when the style of the text changes
-        System.out.println("change!");
-    }
-
-    @Override
-    public void removeUpdate(DocumentEvent e) {
-        System.out.println("remove!");
-    }
-
-    @Override
-    public void insertUpdate(DocumentEvent e) {
-        System.out.println("insert! ");
-    }
 
     private void displayPlayerDetails(int currentPlayerNumber){
         if (currentTeam != null && currentPlayerNumber < currentTeam.getTeamSize()){
@@ -217,7 +229,7 @@ public class TeamGUI implements ActionListener, DocumentListener {
     }
 
     public void setTeam(FantasyBasketballTeam t){
-        currentTeam = t;
+       currentTeam = t;
     }
 
     public void refresh(){
