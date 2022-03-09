@@ -6,13 +6,13 @@ public class Player {
     protected String position;
     protected String owner;
 
-    //
+    // Setter that sets the players position
     public boolean setPosition(String pos){
         position = pos;
         return true;
     }
 
-    //
+    // Setter that sets the players owner
     public boolean setOwner(String o){
         owner = o;
         return true;
@@ -27,7 +27,7 @@ public class Player {
         return name;
     }
 
-    //
+    // Getter that returns players owner
     public String getOwner() {
         return owner;
     }
@@ -47,7 +47,7 @@ public class Player {
     public void display(){
     }
 
-    //
+
     public void copy(Player p){
         this.position = p.position;
     }

@@ -1,5 +1,6 @@
 package com.company;
 
+// Class that creates a basketball player by inheriting from player
 public class BasketballPlayer extends Player{
     private double points;
     private double rebounds;
@@ -11,7 +12,7 @@ public class BasketballPlayer extends Player{
     private double threepointpercentage;
     private double freethrowpercentage;
 
-    //
+
     public boolean setPoints(double p){
         if (p >= 0){
             points = p;
@@ -23,7 +24,7 @@ public class BasketballPlayer extends Player{
         }
     }
 
-    //
+
     public boolean setRebounds(double r){
         if (r >= 0){
             rebounds = r;
@@ -35,7 +36,7 @@ public class BasketballPlayer extends Player{
         }
     }
 
-    //
+
     public boolean setAssists(double a){
         if (a >= 0){
             assists = a;
@@ -47,7 +48,7 @@ public class BasketballPlayer extends Player{
         }
     }
 
-    //
+
     public boolean setBlocks(double b){
         if (b >= 0){
             blocks = b;
@@ -59,7 +60,7 @@ public class BasketballPlayer extends Player{
         }
     }
 
-    //
+
     public boolean setSteals(double s){
         if (s > 0){
             steals = s;
@@ -72,7 +73,7 @@ public class BasketballPlayer extends Player{
 
     }
 
-    //
+
     public boolean setTurnover(double t){
         if (t > 0){
             turnover = t;
@@ -85,7 +86,7 @@ public class BasketballPlayer extends Player{
 
     }
 
-    //
+
     public boolean setFieldgoalpercentage(double fg){
         if (fg > 0){
             fieldgoalpercentage = fg;
@@ -98,7 +99,7 @@ public class BasketballPlayer extends Player{
 
     }
 
-    //
+
     public boolean setThreepointpercentage(double tp){
         if (threepointpercentage > 0){
             threepointpercentage = tp;
@@ -111,7 +112,7 @@ public class BasketballPlayer extends Player{
 
     }
 
-    //
+
     public boolean setFreethrowpercentage(double ft){
         if (freethrowpercentage > 0){
             freethrowpercentage = ft;
@@ -124,47 +125,47 @@ public class BasketballPlayer extends Player{
 
     }
 
-    //
+
     public double getPoints(){
         return points;
     }
 
-    //
+
     public double getRebounds(){
         return rebounds;
     }
 
-    //
+
     public double getAssists(){
         return assists;
     }
 
-    //
+
     public double getBlock(){
         return blocks;
     }
 
-    //
+
     public double getSteals(){
         return steals;
     }
 
-    //
+
     public double getTurnover(){
         return turnover;
     }
 
-    //
+
     public double getFieldgoalpercentage(){
         return fieldgoalpercentage;
     }
 
-    //
+
     public double getThreepointpercentage(){
         return threepointpercentage;
     }
 
-    //Getter for Free Throw Percentage
+
     public double getFreethrowpercentage(){
         return freethrowpercentage;
     }

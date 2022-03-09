@@ -1,8 +1,6 @@
 package com.company;
 
 import javax.swing.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -23,7 +21,6 @@ public class TeamGUI implements ActionListener{
 
     private JFrame frame;
     private LeagueGUI mainGUI;
-    private StandingGUI standingGUI;
     private ScoreGUI scoreGUI;
     private JLabel nameLabel;
     private JLabel positionLabel;
@@ -135,19 +132,12 @@ public class TeamGUI implements ActionListener{
         removeButton.setEnabled(true);
         frame.add(removeButton);
 
-        standingButton = new JButton("Standings");
-        standingButton.setBounds(LEFT_MARGIN + BUTTON_WIDTH*2, BUTTON_Y + BUTTON_HEIGHT,BUTTON_WIDTH,BUTTON_HEIGHT);
-        standingButton.addActionListener(this);
-        standingButton.setEnabled(true);
-        frame.add(standingButton);
-
         // other frame attributes
         frame.setSize(FRAME_WIDTH, FRAME_HEIGHT);
         frame.setLayout(null);
         frame.setVisible(false);
 
         //create edit forms but they are invisible for now
-        standingGUI = new StandingGUI(this.testFantasy,this);
         scoreGUI = new ScoreGUI(this.testFantasy,this);
 
     }
@@ -175,7 +165,6 @@ public class TeamGUI implements ActionListener{
             }
             displayPlayerDetails(currentPlayerNumber);
             previousButton.setEnabled(true);
-            System.out.println(currentPlayerNumber + "," + currentTeam.playerCount());
         }
 
         if (e.getActionCommand() == "Back"){
@@ -187,22 +176,11 @@ public class TeamGUI implements ActionListener{
             currentTeam.getPlayer(currentPlayerNumber).setOwner("None");
             testFantasy.setPlayerOwner("None", testFantasy.getPlayer(currentPlayerNumber));
             testFantasy.writePlayers("players.txt");
-            for(int i = 0; i < currentTeam.getTeamSize(); i++ ){
-                System.out.println(currentTeam.getTeamSize());
-            }
             currentTeam.removePlayer(currentTeam.getPlayer(currentPlayerNumber));
-            for(int i = 0; i < currentTeam.getTeamSize(); i++ ){
-            }
             mainGUI.enableChoose();
             currentTeam.displayTeam();
-            System.out.println(currentPlayerNumber);
-        }
-        if (e.getActionCommand() == "Standings"){
-            standingGUI.show();
-            frame.setVisible(false);
         }
         if (e.getActionCommand() == "Score"){
-            scoreGUI.refreshScore();
             scoreGUI.show();
             frame.setVisible(false);
         }

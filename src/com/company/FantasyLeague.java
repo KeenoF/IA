@@ -2,15 +2,13 @@ package com.company;
 
 import java.util.ArrayList;
 
-
 //Contains all the players available for selection for a team
 public class FantasyLeague {
     ArrayList<BasketballPlayer> players;
 
-    //Constructs
+
     public FantasyLeague(String dataFile) {
         players = new ArrayList<>();
-        System.out.println("Reading league data from" + dataFile);
         readPlayers(dataFile);
     }
 
@@ -57,7 +55,6 @@ public class FantasyLeague {
     private ArrayList<String> convertToText() {
         BasketballPlayer tempPlayer;
         ArrayList<String> text = new ArrayList<>();
-        System.out.println("numbers = " + players.size());
         for (int i = 0; i < players.size(); i++) {
             tempPlayer = players.get(i);
             text.add(tempPlayer.getName() + ",");

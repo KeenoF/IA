@@ -145,7 +145,7 @@ public class LeagueGUI implements ActionListener {
             currentPlayerNumber++;
             displayPlayerDetails(currentPlayerNumber);
             previousButton.setEnabled(true);
-            if(currentPlayerNumber == 251){
+            if(currentPlayerNumber == 99){
                 nextButton.setEnabled(false);
             }
             checkAvailability();
@@ -153,6 +153,7 @@ public class LeagueGUI implements ActionListener {
         if (e.getActionCommand() == "<"){
             currentPlayerNumber--;
             displayPlayerDetails(currentPlayerNumber);
+            nextButton.setEnabled(true);
             if(currentPlayerNumber == 0){
                 previousButton.setEnabled(false);
             }
@@ -167,7 +168,6 @@ public class LeagueGUI implements ActionListener {
         if (e.getActionCommand() == "Choose"){
             if(currentTeam == null){
                 currentTeam = new FantasyBasketballTeam("Team 1");
-                System.out.println(currentTeam == null);
                 teamForm.setTeam(currentTeam);
             }
             if(currentTeam.isNotFull()) {
@@ -224,7 +224,7 @@ public class LeagueGUI implements ActionListener {
 
     public void buildTeam() {
         System.out.println(user);
-        currentTeam = new FantasyBasketballTeam("Team 1");
+        currentTeam = new FantasyBasketballTeam("Team");
         for (int i = 0; i < testFantasy.size(); i++) {
             if (testFantasy.getPlayer(i).getOwner().equals(user)) {
                 currentTeam.addPlayer(testFantasy.getPlayer(i));

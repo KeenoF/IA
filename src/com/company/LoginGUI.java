@@ -106,7 +106,6 @@ public class LoginGUI implements ActionListener {
         }
     }
 
-
     public void readUsers(String fileName) {
         ArrayList<String> allUsers;
         allUsers = FileHandling.readFileData(fileName);
@@ -119,7 +118,4 @@ public class LoginGUI implements ActionListener {
 
         }
     }
-
-
-
 }
